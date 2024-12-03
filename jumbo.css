@@ -82,3 +82,53 @@
     }
     
 }
+@media(max-width :400px){
+    .jumbo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 410px;
+        text-align: center;
+        
+    }
+    
+}
+
+@media(max-width :400px){
+  .nav{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 410px;
+      text-align: center;
+      
+  }
+  
+}
+
+@media(max-width :400px){
+  .skills{
+      width: 410px;
+      
+  }
+  
+}
+@media(max-width :400px){
+  .portfolio{
+      width: 410px;
+      
+  }
+  
+}
+@media(max-width :400px){
+  .contact{
+      width: 400px;
+  }
+  
+}
+@media(max-width :400px){
+  .last{
+      width: 400px;
+  }
+  
+}
