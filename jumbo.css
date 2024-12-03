@@ -108,27 +108,27 @@
 
 @media(max-width :400px){
   .skills{
-      width: 410px;
+      width: 470px;
       
   }
   
 }
 @media(max-width :400px){
   .portfolio{
-      width: 410px;
+      width: 470px;
       
   }
   
 }
 @media(max-width :400px){
   .contact{
-      width: 400px;
+      width: 470px;
   }
   
 }
 @media(max-width :400px){
   .last{
-      width: 400px;
+      width: 470px;
   }
   
 }
