@@ -1,0 +1,122 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(180deg,white,rgb(252, 250, 250),rgb(207, 221, 239));
+
+    
+}
+.portfolio-item h3{
+    font-size: 2rem;
+    text-align: center;
+    font-size: Roboto;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(3, 5, 79);
+    margin-top: 20px;
+}
+.portfolio-item p{
+    font-family: Ubuntu,sans-serif;
+    color: rgb(4, 7, 111);
+    font-size: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: linear-gradient(250deg,white,rgb(247, 242, 242),rgb(207, 221, 239));
+}
+.last{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 7, 111) ;
+    background-color: aliceblue;
+}
+.flex1{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-family: cursive;
+   color: rgb(4, 7, 111) ;
+   cursor: pointer;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: cursive;
+    color: rgb(4, 7, 111) ;
+    cursor: pointer;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: cursive;
+    color: rgb(4, 7, 111) ;
+    cursor: pointer;
+}
+.flex2:hover{
+    text-decoration: underline;
+    color: #3008e3;
+    letter-spacing: 0.1px;
+    transition: 0.5s ease-in-out;
+}
+.flex1:hover{
+    text-decoration: underline;
+    color: #3008e3;
+    letter-spacing: 0.1px;
+    transition: 0.5s ease-in-out;
+}
+.flex3:hover{
+    text-decoration: underline;
+    color: #3008e3;
+    letter-spacing: 0.1px;
+    transition: 0.5s ease-in-out;
+}
+
+.flex3 img{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.flex2 img{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.flex1 img{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+@media (max-width :400px){
+    .portfolio{
+    height: 550px;
+    }
+}
+
+@media (max-width :744px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

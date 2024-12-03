@@ -1,0 +1,119 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 10px;
+    padding: 10px;
+    background: linear-gradient(360deg, rgb(248, 248, 251),rgb(206, 201, 201),rgb(255, 252, 252));
+
+}
+.skills ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.feature-skills{
+    
+    font-size: 1.5rem;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color:rgb(206, 201, 201) ;
+    text-align: center;
+    
+}
+.skills-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 1px;
+    align-items: center;
+    font-family: Roboto,Ubuntu sans-serif;
+    border: 1px solid black;
+    cursor:pointer; 
+}
+.skills-flex:hover{
+    transform: scale(1.04);
+    transition: 0.5s ease-in-out;
+}
+.skills-flex img{
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.skills ul{
+    font-family: Ubuntu;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(245, 163, 163);
+    border-radius: 10px;
+    width: 200px;
+    
+}
+.skills h3{
+    font-family: Ubuntu;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(249, 190, 190);
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+@media(max-width :600px){
+    .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    }
+}
+@media(max-width :800px){
+    .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    }
+}
+@media(max-width :575px){
+    .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    }
+}
+@media(max-width :490px){
+    .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    }
+}
+@media(max-width :490px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media(max-width :510px){
+.nav-image img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+}
+
+@media(max-width :501px){
+    .nav>.nav-item ul a{
+        color: rgb(2, 2, 2);
+        text-decoration: none;
+        font-family: Sour Gummy;
+        padding:0px;
+    
+    }
+}

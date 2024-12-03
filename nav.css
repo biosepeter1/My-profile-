@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(222, 232, 249);
+}
+.nav-image img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.nav>.nav-item ul a{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-family: Sour Gummy;
+    padding: 20px 20px;
+    font-size: 1rem;
+}
+    
+.nav>.nav-item ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+
+}
+nav>.nav-item ul button{
+    margin: 15px 15px;
+    border: 1px solid rgb(222, 232, 249);
+    background-color: rgb(222, 232, 249);
+    
+}
+.nav>.nav-item ul button:hover{
+    transition: 0.4s ease-in-out ;
+    letter-spacing: 0.2px;
+    text-decoration: underline;
+    color: rgb(234, 15, 48);
+}
+
