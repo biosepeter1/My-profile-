@@ -90,9 +90,4 @@
   
 }
 
-@media(max-width :450px){
-  html,body{
-    overflow-x: hidden;
-  }
-}
 
